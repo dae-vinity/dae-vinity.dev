@@ -43,6 +43,7 @@ a {
   left: calc(50% - 295px);
   top: calc(50% - 25px);
   filter: drop-shadow(0px 0px 26px #ffffff80);
+  mix-blend-mode: difference;
 }
 
 .effect {
@@ -51,6 +52,7 @@ a {
   animation-iteration-count: infinite;
   animation-direction: alternate;
   filter: none;
+  mix-blend-mode: normal;
 }
 
 .directory {
@@ -66,4 +68,12 @@ a {
 
 .nah {
   color: #808080;
+}
+
+.ash {
+  position: absolute;
+  bottom: 0px;
+  right: 32px;
+  height: 394px;
+  mix-blend-mode: difference;
 }
