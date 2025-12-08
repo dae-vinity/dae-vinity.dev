@@ -9,7 +9,7 @@
 
 body {
   background-color: #000000;
-  background-image: url(assets/loop.svg);
+  background-image: url(/assets/loop.svg);
   animation-name: scroll;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -32,5 +32,5 @@ a {
 
   border-width: 16px;
   border-style: solid;
-  border-image: url(assets/frame.svg) 16 16 fill
+  border-image: url(/assets/frame.svg) 16 16 fill
 }
