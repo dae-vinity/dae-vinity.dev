@@ -1,18 +1,15 @@
 @keyframes effect {
   from {
     opacity: 0%;
-    width: 590px;
-    left: calc(50% - 295px);
-    top: calc(50% - 25px);
+    scale:1;
   }
 
   to {
     opacity: 25%;
-    width: 649px;
-    left: calc(50% - 325px);
-    top: calc(50% - 28px);
+    scale:1.1;
   }
 }
+
 
 .logo {
   position: absolute;
