@@ -1,0 +1,55 @@
+@keyframes effect {
+  from {
+    opacity: 0%;
+    width: 590px;
+    left: calc(50% - 295px);
+    top: calc(50% - 25px);
+  }
+
+  to {
+    opacity: 25%;
+    width: 649px;
+    left: calc(50% - 325px);
+    top: calc(50% - 28px);
+  }
+}
+
+.logo {
+  position: absolute;
+  left: calc(50% - 295px);
+  top: calc(50% - 25px);
+  filter: drop-shadow(0px 0px 26px #ffffff80);
+  mix-blend-mode: difference;
+}
+
+.effect {
+  animation-name: effect;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  filter: none;
+  mix-blend-mode: normal;
+}
+
+.directory {
+  position: absolute;
+  top: calc(50% + 48px);
+  width: 100%;
+  text-align: center;
+
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.nah {
+  color: #808080;
+}
+
+.ash {
+  position: absolute;
+  bottom: 0px;
+  right: 32px;
+  height: 394px;
+  mix-blend-mode: difference;
+}
