@@ -25,7 +25,7 @@
   animation-iteration-count: infinite;
   animation-direction: alternate;
   filter: none;
-  mix-blend-mode: normal;
+  mix-blend-mode:lighten;
 }
 
 .directory {
