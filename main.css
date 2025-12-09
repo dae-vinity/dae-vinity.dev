@@ -23,6 +23,13 @@ a {
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;
+
+  transition: filter 0.25s;
+  filter: drop-shadow(0 0 8px #ffffff00) drop-shadow(0 0 16x #ffffff00);
+}
+
+a:hover {
+  filter: drop-shadow(0 0 8px #ffffffff) drop-shadow(0 0 16px #ffffff80);
 }
 
 .frame {
@@ -32,5 +39,5 @@ a {
 
   border-width: 16px;
   border-style: solid;
-  border-image: url(/assets/frame.svg) 16 16 fill
+  border-image: url(/assets/frame.svg) 16 16 fill;
 }
