@@ -1,15 +1,14 @@
 @keyframes effect {
   from {
     opacity: 0%;
-    scale:1;
+    scale: 1;
   }
 
   to {
     opacity: 25%;
-    scale:1.1;
+    scale: 1.1;
   }
 }
-
 
 .logo {
   position: absolute;
@@ -25,7 +24,7 @@
   animation-iteration-count: infinite;
   animation-direction: alternate;
   filter: none;
-  mix-blend-mode:lighten;
+  mix-blend-mode: lighten;
 }
 
 .directory {
@@ -37,10 +36,17 @@
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
+  z-index: 256;
 }
 
 .nah {
   color: #808080;
+  transition: none;
+  filter: none;
+}
+
+.nah:hover {
+  filter: none;
 }
 
 .ash {
@@ -49,4 +55,5 @@
   right: 32px;
   height: 394px;
   mix-blend-mode: difference;
+  z-index: -1;
 }
